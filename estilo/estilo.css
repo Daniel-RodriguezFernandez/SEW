@@ -13,10 +13,12 @@ body {
 }
 
 header {
+    color: #ffffff; /* Especificidad: 001 */
     background-color: #ba0f30; /* Especificidad: 001 */
 }
 
 h1, nav {
     color: #ffffff; /* Especificidad: 002 */
+    background-color: #ba0f30; /* Especificidad: 002 */
 }
 
