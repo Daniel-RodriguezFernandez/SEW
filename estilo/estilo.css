@@ -6,19 +6,42 @@ ID Universitario: UO293655
 Estilos generales del proyecto MotoGP-Desktop 
 */
 
+/*
+Paleta usada:
+
+Burgundy
+#ba0f30
+
+Purple Haze
+#2f2440
+
+Sand Dollar
+#c6b79b
+
+Red
+#ff2511
+*/
+
+/* Especificidad: 001 */
 body {
-    font-family: Verdana, sans-serif;   /* Especificidad: 001 */
-    background-color: #c6b79b;  /* Especificidad: 001 */
-    color: #2f2440;  /* Especificidad: 001 */
+    font-family: Verdana, sans-serif;
+    background-color: #c6b79b;
+    color: #2f2440;
 }
 
+/* Especificidad: 001 */
 header {
-    color: #ffffff; /* Especificidad: 001 */
-    background-color: #ba0f30; /* Especificidad: 001 */
+    color: #ffffff; 
+    background-color: #ba0f30;
 }
 
-h1, nav {
-    color: #ffffff; /* Especificidad: 002 */
-    background-color: #ba0f30; /* Especificidad: 002 */
+/* Especificidad: 010*/
+.active{
+    background-color: #ff2511
+    /* Advertencia: Herencia de la propiedad color de body #ffffff */
 }
 
+/* Especificidad: 011 */
+p:first-of-type{
+    font-size: 0.75em;
+}
