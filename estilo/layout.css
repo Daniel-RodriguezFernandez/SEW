@@ -1,0 +1,68 @@
+/*
+Datos Personales:
+Nombre Completo: Daniel Rodríguez Fernández
+ID Universitario: UO293655
+
+Layout del proyecto MotoGP-Desktop
+*/
+
+/* Especifidad (0,0,1) */
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Especifidad (0,0,1) */
+nav{
+    flex-direction: row;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 799px){
+
+    /* Especificidad: (0,0,1) */
+    header{
+        flex-direction: column;
+    }
+
+    /* Especificidad: (0,0,1) */
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* Especificidad: (0,0,2) */
+    header + p {
+        display: none;
+    }
+
+    /* Especificidad: (0,1,2) */
+    header + p.inicio {
+        display:block;
+    }
+
+    video {
+        width:100%;
+        height:auto;
+    }
+
+    audio {
+        width:100%;
+    }
+}
+
+

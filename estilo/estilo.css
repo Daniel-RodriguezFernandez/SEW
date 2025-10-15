@@ -4,44 +4,66 @@ Nombre Completo: Daniel Rodríguez Fernández
 ID Universitario: UO293655
 
 Estilos generales del proyecto MotoGP-Desktop 
-*/
 
-/*
 Paleta usada:
 
-Burgundy
-#ba0f30
+Grain
+#D7CEC7
 
-Purple Haze
-#2f2440
+Blackboard
+#565656
 
-Sand Dollar
-#c6b79b
+Rojo oscuro
+#B22234
 
-Red
-#ff2511
+OxBlood
+#76323F
+
+Tan
+#C09F80
 */
 
-/* Especificidad: 001 */
+/* Especificidad: (0,0,1) */
 body {
     font-family: Verdana, sans-serif;
-    background-color: #c6b79b;
-    color: #2f2440;
+    background-color: #D7CEC7;
+    color: #565656;
 }
 
-/* Especificidad: 001 */
+/* Especificidad: (0,0,1) */
 header {
-    color: #ffffff; 
-    background-color: #ba0f30;
+    color: #565656; 
+    background-color: #FFFFFF;
 }
 
-/* Especificidad: 010*/
+/* Especificidad: (0,1,0) */
 .active{
-    background-color: #ff2511
-    /* Advertencia: Herencia de la propiedad color de body #ffffff */
+    color: #B22234;
+    /* Advertencia: Herencia de la propiedad background-color de header #FFFFFF */
 }
 
-/* Especificidad: 011 */
-p:first-of-type{
+/* Especificidad: (0,0,2) */
+header + p {
     font-size: 0.75em;
+}
+
+/* Especificidad: (0,1,2) */
+header + p.inicio {
+    font-size: inherit;
+}
+
+/* Especificidad: (0,0,2) */
+header a {
+    text-decoration-line: none;
+    color: #565656;
+    /* Advertencia: Herencia de la propiedad background-color de header #FFFFFF */
+}
+
+/* Especificidad: (0,0,1) */
+h2, h3, h4, h5, h6 {
+    color: #76323F;
+    /* Advertencia: Herencia de la propiedad background-color de body #D7CEC7 */
+    line-height: 1.2; 
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
 }
