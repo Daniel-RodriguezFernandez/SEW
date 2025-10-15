@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito>
+  <nombre>Circuit Ricardo Tormo</nombre>
+  <distancia unidad="m">4005</distancia>
+  <anchuraMedia unidad="m">12</anchuraMedia>
+  <fechaCarrera>16/11</fechaCarrera>
+  <horaInicio>14:00</horaInicio>
+  <numeroVueltas>30</numeroVueltas>
+  <localidad>Cheste</localidad>
+  <pais>España</pais>
+  <patrocinador>Comunitat Valenciana</patrocinador>
+
+  <referencias>
+    <referencia></referencia>
+  </referencias>
+  
+  <galeriaFotos>
+    <foto src="" alt=""/>
+  </galeriaFotos>
+  
+  <galeriaVideos>
+    <video></video>
+  </galeriaVideos>
+  
+  <origenCircuito>
+    <latitud unidad="grados">39.4833</latitud>
+    <longitud unidad="grados">-0.6308</longitud>
+    <altitud unidad="m">154</altitud>
+  </origenCircuito>
+  
+  <puntoAnonimo>
+    <distancia unidad="m"></distancia>
+    <latitud unidad="grados"></latitud>
+    <longitud unidad="grados"></longitud>
+    <altitud unidad="m"></altitud>
+    <sector></sector>
+  </puntoAnonimo>
+  
+  <vencedor nombre="" tiempo=""/>
+  
+  <clasificacion>
+    <piloto posicion="" nombre=""/>
+  </clasificacion>
+</circuito>

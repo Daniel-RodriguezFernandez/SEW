@@ -1,0 +1,63 @@
+<!ELEMENT circuito (
+  nombre, 
+  distancia, 
+  anchuraMedia, 
+  fechaCarrera, 
+  horaInicio, 
+  numeroVueltas, 
+  localidad, 
+  pais, 
+  patrocinador, 
+  referencias, 
+  galeriaFotos, 
+  galeriaVideos, 
+  origenCircuito, 
+  puntoAnonimo+, 
+  vencedor, 
+  clasificacion
+)>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidad (m) #REQUIRED>
+
+<!ELEMENT anchuraMedia (#PCDATA)>
+<!ATTLIST anchuraMedia unidad (m) #REQUIRED>
+
+<!ELEMENT fechaCarrera (#PCDATA)>
+<!ELEMENT horaInicio (#PCDATA)>
+<!ELEMENT numeroVueltas (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT patrocinador (#PCDATA)>
+
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ELEMENT galeriaFotos (foto+)>
+<!ELEMENT foto EMPTY>
+<!ATTLIST foto src CDATA #REQUIRED alt CDATA #REQUIRED>
+
+<!ELEMENT galeriaVideos (video+)>
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT origenCircuito (latitud, longitud, altitud)>
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud unidad (grados) #REQUIRED>
+
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidad (grados) #REQUIRED>
+
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud unidad (m) #REQUIRED>
+
+<!ELEMENT puntoAnonimo (distancia, latitud, longitud, altitud, sector)>
+<!ELEMENT sector (#PCDATA)>
+
+<!ELEMENT vencedor EMPTY>
+<!ATTLIST vencedor nombre CDATA #REQUIRED tiempo CDATA #REQUIRED>
+
+<!ELEMENT clasificacion (piloto+)>
+<!ELEMENT piloto EMPTY>
+<!ATTLIST piloto posicion CDATA #REQUIRED nombre CDATA #REQUIRED>
