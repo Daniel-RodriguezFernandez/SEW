@@ -12,7 +12,7 @@
   galeriaFotos, 
   galeriaVideos, 
   origenCircuito, 
-  puntoAnonimo+, 
+  puntosAnonimo, 
   vencedor, 
   clasificacion
 )>
@@ -40,9 +40,11 @@
 <!ATTLIST foto src CDATA #REQUIRED alt CDATA #REQUIRED>
 
 <!ELEMENT galeriaVideos (video+)>
-<!ELEMENT video (#PCDATA)>
+<!ELEMENT video EMPTY>
+<!ATTLIST video src CDATA #REQUIRED>
 
 <!ELEMENT origenCircuito (latitud, longitud, altitud)>
+
 <!ELEMENT latitud (#PCDATA)>
 <!ATTLIST latitud unidad (grados) #REQUIRED>
 
@@ -52,7 +54,9 @@
 <!ELEMENT altitud (#PCDATA)>
 <!ATTLIST altitud unidad (m) #REQUIRED>
 
-<!ELEMENT puntoAnonimo (distancia, latitud, longitud, altitud, sector)>
+<!ELEMENT puntosAnonimos (puntoAnonimo+)> 
+
+<!ELEMENT puntoAnonimo (nombre, distancia, latitud, longitud, altitud, sector)>
 <!ELEMENT sector (#PCDATA)>
 
 <!ELEMENT vencedor EMPTY>
