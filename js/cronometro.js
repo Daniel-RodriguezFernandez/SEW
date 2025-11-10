@@ -63,4 +63,4 @@ class Cronometro {
     }
 }
 
-window.cronometro = new Cronometro();
+var cronometro = new Cronometro();
