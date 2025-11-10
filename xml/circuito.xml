@@ -1,307 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<!DOCTYPE circuito SYSTEM "libros.dtd">
 <circuito>
-  <nombre>Circuit Ricardo Tormo</nombre>
-  <distancia unidad="m">4005</distancia>
-  <anchuraMedia unidad="m">12</anchuraMedia>
-  <fechaCarrera>16/11</fechaCarrera>
-  <horaInicio>14:00</horaInicio>
-  <numeroVueltas>30</numeroVueltas>
-  <localidad>Cheste</localidad>
-  <pais>España</pais>
-  <patrocinador>Comunitat Valenciana</patrocinador>
+    <nombre>Circuit Ricardo Tormo</nombre>
+    <dimensiones longitud_circuito="4005000" anchura_media="12" />
+    <fecha_carrera>16/11</fecha_carrera>
+    <hora_inicio>14:00</hora_inicio>
+    <numero_vueltas>27</numero_vueltas>
+    <ubicacion>
+        <localidad>Cheste</localidad>
+        <pais>España</pais>
+    </ubicacion>
+    <patrocinador>Motul</patrocinador>
+    <referencias>
+        <referencia>https://www.circuitricardotormo.com/</referencia>
+        <referencia>https://www.motogp.com/es/calendar/2025/event/valencia/1d04e5f0-be1a-4c1c-9a75-81fe67811866?tab=circuit-info</referencia>
+        <referencia>https://es.wikipedia.org/wiki/Circuito_Ricardo_Tormo</referencia>
+    </referencias>
+    <fotos>
+        <foto>circuito.png</foto>
+    </fotos>
+    <videos>
+        <video>circuito.mp4</video>
+    </videos>
+    <inicio_circuito>
+        <latitud>39.4833333</latitud>
+        <longitud>-0.6308333</longitud>
+        <altitud>152.27</altitud>
+    </inicio_circuito>
+    <tramos>
+        <tramo sector="1" distancia="327.43">
+            <coordenadas_final>
+                <latitud>39.486111</latitud>
+                <longitud>-0.626111</longitud>
+                <altitud>145.23</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="1" distancia="32.01">
+            <coordenadas_final>
+                <latitud>39.486389</latitud>
+                <longitud>-0.625833</longitud>
+                <altitud>145.12</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="1" distancia="32.86">
+            <coordenadas_final>
+                <latitud>39.486667</latitud>
+                <longitud>-0.625833</longitud>
+                <altitud>146.14</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="1" distancia="319.93">
+            <coordenadas_final>
+                <latitud>39.489167</latitud>
+                <longitud>-0.627222</longitud>
+                <altitud>149.23</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="1" distancia="23.2">
+            <coordenadas_final>
+                <latitud>39.489167</latitud>
+                <longitud>-0.627500</longitud>
+                <altitud>150.03</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="1" distancia="23.74">
+            <coordenadas_final>
+                <latitud>39.489167</latitud>
+                <longitud>-0.627778</longitud>
+                <altitud>150.8</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="1" distancia="123.11">
+            <coordenadas_final>
+                <latitud>39.488056</latitud>
+                <longitud>-0.628056</longitud>
+                <altitud>149.92</altitud>
+            </coordenadas_final>
+        </tramo>
 
-  <referencias>
-    <referencia>https://www.circuitricardotormo.com/</referencia>
-    <referencia>https://es.wikipedia.org/wiki/Circuito_Ricardo_Tormo</referencia>
-    <referencia>https://www.instagram.com/circuitvalencia/?hl=en</referencia>
-  </referencias>
-  
-  <galeriaFotos>
-    <foto src="multimedia\circuito.png" alt="Mapa del circuito"/>
-  </galeriaFotos>
-  
-  <galeriaVideos>
-    <video src="multimedia\circuito.mp4"/>
-  </galeriaVideos>
-  
-  <origenCircuito>
-    <latitud unidad="grados">39.4833</latitud>
-    <longitud unidad="grados">-0.6308</longitud>
-    <altitud unidad="m">154</altitud>
-  </origenCircuito>
-  
-  <puntosAnonimos>
-    <!-- Sector 1 -->
-    <puntoAnonimo>
-        <distancia unidad="m">18.37</distancia>
-        <latitud unidad="grados">39.48165352113205</latitud>
-        <longitud unidad="grados">-0.634960789505522</longitud>
-        <altitud unidad="m">159.13070622706</altitud>
-        <sector>1</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">29.4</distancia>
-        <latitud unidad="grados">39.48164800747235</latitud>
-        <longitud unidad="grados">-0.6346251439095252</longitud>
-        <altitud unidad="m">158.2852204952856</altitud>
-        <sector>1</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">861.14</distancia>
-        <latitud unidad="grados">39.4860596040287</latitud>
-        <longitud unidad="grados">-0.626357408073811</longitud>
-        <altitud unidad="m">146.5443370856989</altitud>
-        <sector>1</sector>
-    </puntoAnonimo>
+        <tramo sector="2" distancia="23.42">
+            <coordenadas_final>
+                <latitud>39.487778</latitud>
+                <longitud>-0.628056</longitud>
+                <altitud>149.3</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="2" distancia="153.67">
+            <coordenadas_final>
+                <latitud>39.486667</latitud>
+                <longitud>-0.626944</longitud>
+                <altitud>147.82</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="2" distancia="27.33">
+            <coordenadas_final>
+                <latitud>39.486389</latitud>
+                <longitud>-0.626944</longitud>
+                <altitud>146.44</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="2" distancia="127">
+            <coordenadas_final>
+                <latitud>39.485833</latitud>
+                <longitud>-0.628333</longitud>
+                <altitud>147.5</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="2" distancia="42.56">
+            <coordenadas_final>
+                <latitud>39.485833</latitud>
+                <longitud>-0.628611</longitud>
+                <altitud>148.24</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="2" distancia="34.91">
+            <coordenadas_final>
+                <latitud>39.486111</latitud>
+                <longitud>-0.628889</longitud>
+                <altitud>148.62</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="2" distancia="206.58">
+            <coordenadas_final>
+                <latitud>39.488056</latitud>
+                <longitud>-0.628889</longitud>
+                <altitud>152.93</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="2" distancia="35.02">
+            <coordenadas_final>
+                <latitud>39.488333</latitud>
+                <longitud>-0.629167</longitud>
+                <altitud>153.81</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="2" distancia="33.6">
+            <coordenadas_final>
+                <latitud>39.488333</latitud>
+                <longitud>-0.629722</longitud>
+                <altitud>154.19</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="2" distancia="249.32">
+            <coordenadas_final>
+                <latitud>39.487222</latitud>
+                <longitud>-0.631944</longitud>
+                <altitud>160.11</altitud>
+            </coordenadas_final>
+        </tramo>
 
-    <!-- Sector 2 -->
-    <puntoAnonimo>
-        <distancia unidad="m">43.66</distancia>
-        <latitud unidad="grados">39.48639887693418</latitud>
-        <longitud unidad="grados">-0.6260697906951174</longitud>
-        <altitud unidad="m">146.2847484580939</altitud>
-        <sector>2</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">34.33</distancia>
-        <latitud unidad="grados">39.486721437127</latitud>
-        <longitud unidad="grados">-0.6260537471805605</longitud>
-        <altitud unidad="m">146.2372892663496</altitud>
-        <sector>2</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">318.19</distancia>
-        <latitud unidad="grados">39.48936736956964</latitud>
-        <longitud unidad="grados">-0.6274612774286947</longitud>
-        <altitud unidad="m">151.5412123891565</altitud>
-        <sector>2</sector>
-    </puntoAnonimo>
+        <tramo sector="3" distancia="57.9">
+            <coordenadas_final>
+                <latitud>39.486944</latitud>
+                <longitud>-0.632500</longitud>
+                <altitud>161.59</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="3" distancia="165.02">
+            <coordenadas_final>
+                <latitud>39.485556</latitud>
+                <longitud>-0.633611</longitud>
+                <altitud>162.73</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="3" distancia="52.23">
+            <coordenadas_final>
+                <latitud>39.485</latitud>
+                <longitud>-0.633333</longitud>
+                <altitud>159.65</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="3" distancia="56.73">
+            <coordenadas_final>
+                <latitud>39.485</latitud>
+                <longitud>-0.632778</longitud>
+                <altitud>157.8</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="3" distancia="136.62">
+            <coordenadas_final>
+                <latitud>39.485556</latitud>
+                <longitud>-0.631389</longitud>
+                <altitud>155.73</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="3" distancia="116.44">
+            <coordenadas_final>
+                <latitud>39.486667</latitud>
+                <longitud>-0.631111</longitud>
+                <altitud>155.07</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="3" distancia="88.05">
+            <coordenadas_final>
+                <latitud>39.487222</latitud>
+                <longitud>-0.630278</longitud>
+                <altitud>154.14</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="3" distancia="35.97">
+            <coordenadas_final>
+                <latitud>39.487222</latitud>
+                <longitud>-0.63</longitud>
+                <altitud>154.76</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="3" distancia="37.67">
+            <coordenadas_final>
+                <latitud>39.486667</latitud>
+                <longitud>-0.629722</longitud>
+                <altitud>152.55</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="3" distancia="122.13">
+            <coordenadas_final>
+                <latitud>39.485833</latitud>
+                <longitud>-0.630556</longitud>
+                <altitud>152.38</altitud>
+            </coordenadas_final>
+        </tramo>
 
-    <!-- Sector 3 -->
-    <puntoAnonimo>
-        <distancia unidad="m">23.94</distancia>
-        <latitud unidad="grados">39.48944011088887</latitud>
-        <longitud unidad="grados">-0.6277512361645665</longitud>
-        <altitud unidad="m">151.6477172112768</altitud>
-        <sector>3</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">23.28</distancia>
-        <latitud unidad="grados">39.4893111080541</latitud>
-        <longitud unidad="grados">-0.6280173086590635</longitud>
-        <altitud unidad="m">152.0788481336951</altitud>
-        <sector>3</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 4 -->
-    <puntoAnonimo>
-        <distancia unidad="m">139.43</distancia>
-        <latitud unidad="grados">39.48805440996832</latitud>
-        <longitud unidad="grados">-0.6282843701254648</longitud>
-        <altitud unidad="m">151.4762011171666</altitud>
-        <sector>4</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">157.44</distancia>
-        <latitud unidad="grados">39.4869051711397</latitud>
-        <longitud unidad="grados">-0.6271502823121056</longitud>
-        <altitud unidad="m">148.5673999203166</altitud>
-        <sector>4</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 5 -->
-    <puntoAnonimo>
-        <distancia unidad="m">28.21</distancia>
-        <latitud unidad="grados">39.48665283012605</latitud>
-        <longitud unidad="grados">-0.6271626024843879</longitud>
-        <altitud unidad="m">148.3223774986317</altitud>
-        <sector>5</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">126.43</distancia>
-        <latitud unidad="grados">39.48601710907781</latitud>
-        <longitud unidad="grados">-0.6283850147499193</longitud>
-        <altitud unidad="m">149.0521549293201</altitud>
-        <sector>5</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 6 -->
-    <puntoAnonimo>
-        <distancia unidad="m">41.98</distancia>
-        <latitud unidad="grados">39.48609731891976</latitud>
-        <longitud unidad="grados">-0.6288738299502961</longitud>
-        <altitud unidad="m">149.7129146481429</altitud>
-        <sector>6</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">34.78</distancia>
-        <latitud unidad="grados">39.48636374466233</latitud>
-        <longitud unidad="grados">-0.6290896334493667</longitud>
-        <altitud unidad="m">150.0023500496631</altitud>
-        <sector>6</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">215.02</distancia>
-        <latitud unidad="grados">39.48829861273209</latitud>
-        <longitud unidad="grados">-0.6291251604204318</longitud>
-        <altitud unidad="m">154.7368322105294</altitud>
-        <sector>6</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 7 -->
-    <puntoAnonimo>
-        <distancia unidad="m">29.01</distancia>
-        <latitud unidad="grados">39.48848245427408</latitud>
-        <longitud unidad="grados">-0.6293520461913227</longitud>
-        <altitud unidad="m">155.4794646629715</altitud>
-        <sector>7</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">32.85</distancia>
-        <latitud unidad="grados">39.48851753833272</latitud>
-        <longitud unidad="grados">-0.62973226900084</longitud>
-        <altitud unidad="m">156.527793045826</altitud>
-        <sector>7</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 8 -->
-    <puntoAnonimo>
-        <distancia unidad="m">306.44</distancia>
-        <latitud unidad="grados">39.48694709412071</latitud>
-        <longitud unidad="grados">-0.6326627345381919</longitud>
-        <altitud unidad="m">162.4346427946614</altitud>
-        <sector>8</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">175</distancia>
-        <latitud unidad="grados">39.48558348625532</latitud>
-        <longitud unidad="grados">-0.6336777053887177</longitud>
-        <altitud unidad="m">163.1184108232847</altitud>
-        <sector>8</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">31.86</distancia>
-        <latitud unidad="grados">39.48530281784014</latitud>
-        <longitud unidad="grados">-0.6336316423033816</longitud>
-        <altitud unidad="m">162.1777101114238</altitud>
-        <sector>8</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 9 -->
-    <puntoAnonimo>
-        <distancia unidad="m">35.64</distancia>
-        <latitud unidad="grados">39.48508349310853</latitud>
-        <longitud unidad="grados">-0.6333293901689907</longitud>
-        <altitud unidad="m">161.0603529414214</altitud>
-        <sector>9</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia unidad="m">23.28</distancia>
-        <latitud unidad="grados">39.48508309052805</latitud>
-        <longitud unidad="grados">-0.6328554578528589</longitud>
-        <altitud unidad="m">159.333133120049</altitud>
-        <sector>9</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 10 -->
-    <puntoAnonimo>
-        <distancia unidad="m">38.98</distancia>
-        <latitud unidad="grados">39.48575102329369</latitud>
-        <longitud unidad="grados">-0.6316652290151403</longitud>
-        <altitud unidad="m">156.4841417565425</altitud>
-        <sector>10</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 11 -->
-    <puntoAnonimo>
-        <distancia unidad="m">23.94</distancia>
-        <latitud unidad="grados">39.48682413580035</latitud>
-        <longitud unidad="grados">-0.6313010633715999</longitud>
-        <altitud unidad="m">156.4449072513663</altitud>
-        <sector>11</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48730184924943</latitud>
-        <longitud unidad="grados">-0.6304834591532715</longitud>
-        <altitud unidad="m">155.7254225520321</altitud>
-        <sector>11</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48729299688833</latitud>
-        <longitud unidad="grados">-0.6301542548215067</longitud>
-        <altitud unidad="m">155.4861923388968</altitud>
-        <sector>11</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 12 -->
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48710477165429</latitud>
-        <longitud unidad="grados">-0.6299350078865595</longitud>
-        <altitud unidad="m">154.9453005179446</altitud>
-        <sector>12</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48691776071102</latitud>
-        <longitud unidad="grados">-0.6299376415034941</longitud>
-        <altitud unidad="m">154.6962616152097</altitud>
-        <sector>12</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 13 -->
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48456376553231</latitud>
-        <longitud unidad="grados">-0.6317642604807983</longitud>
-        <altitud unidad="m">156.4367331526249</altitud>
-        <sector>13</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48453395140052</latitud>
-        <longitud unidad="grados">-0.6330860537705796</longitud>
-        <altitud unidad="m">161.0505822747415</altitud>
-        <sector>13</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48426123567454</latitud>
-        <longitud unidad="grados">-0.6340049761538358</longitud>
-        <altitud unidad="m">164.4147393947997</altitud>
-        <sector>13</sector>
-    </puntoAnonimo>
-
-    <!-- Sector 14 -->
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48369793153638</latitud>
-        <longitud unidad="grados">-0.634753825459331</longitud>
-        <altitud unidad="m">165.9050890114471</altitud>
-        <sector>14</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48279474896368</latitud>
-        <longitud unidad="grados">-0.6351914628686728</longitud>
-        <altitud unidad="m">164.5751417451381</altitud>
-        <sector>14</sector>
-    </puntoAnonimo>
-    <puntoAnonimo>
-        <distancia></distancia>
-        <latitud unidad="grados">39.48177548341371</latitud>
-        <longitud unidad="grados">-0.6351087591607507</longitud>
-        <altitud unidad="m">159.987975272669</altitud>
-        <sector>14</sector>
-    </puntoAnonimo>
-  </puntosAnonimos>
-
-  <vencedor nombre="" tiempo=""/>
-  
-  <clasificacion>
-    <piloto posicion="" nombre=""/>
-  </clasificacion>
+        <tramo sector="4" distancia="184.94">
+            <coordenadas_final>
+                <latitud>39.484444</latitud>
+                <longitud>-0.631667</longitud>
+                <altitud>154.7</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="4" distancia="149.24">
+            <coordenadas_final>
+                <latitud>39.484167</latitud>
+                <longitud>-0.6333333</longitud>
+                <altitud>160.88</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="4" distancia="127.53">
+            <coordenadas_final>
+                <latitud>39.483611</latitud>
+                <longitud>-0.634444</longitud>
+                <altitud>163.65</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="4" distancia="107.13">
+            <coordenadas_final>
+                <latitud>39.482778</latitud>
+                <longitud>-0.635</longitud>
+                <altitud>162.61</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="4" distancia="118.24">
+            <coordenadas_final>
+                <latitud>39.481667</latitud>
+                <longitud>-0.635</longitud>
+                <altitud>158.46</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="4" distancia="47.56">
+            <coordenadas_final>
+                <latitud>39.481389</latitud>
+                <longitud>-0.634444</longitud>
+                <altitud>155.87</altitud>
+            </coordenadas_final>
+        </tramo>
+        <tramo sector="4" distancia="552.37">
+            <coordenadas_final>
+                <latitud>39.484444</latitud>
+                <longitud>-0.629166</longitud>
+                <altitud>149.69</altitud>
+            </coordenadas_final>
+        </tramo>
+    </tramos>
 </circuito>

@@ -1,67 +1,64 @@
 <!ELEMENT circuito (
-  nombre, 
-  distancia, 
-  anchuraMedia, 
-  fechaCarrera, 
-  horaInicio, 
-  numeroVueltas, 
-  localidad, 
-  pais, 
-  patrocinador, 
-  referencias, 
-  galeriaFotos, 
-  galeriaVideos, 
-  origenCircuito, 
-  puntosAnonimo, 
-  vencedor, 
-  clasificacion
+    nombre, 
+    dimensiones, 
+    fecha_carrera, 
+    hora_inicio, 
+    numero_vueltas, 
+    ubicacion, 
+    patrocinador, 
+    referencias, 
+    fotos, 
+    videos, 
+    inicio_circuito, 
+    tramos, 
+    vencedor?, 
+    clasificacion?
 )>
 
 <!ELEMENT nombre (#PCDATA)>
 
-<!ELEMENT distancia (#PCDATA)>
-<!ATTLIST distancia unidad (m) #REQUIRED>
+<!ELEMENT dimensiones EMPTY>
+<!ATTLIST dimensiones
+    longitud_circuito CDATA #REQUIRED
+    anchura_media CDATA #REQUIRED>
 
-<!ELEMENT anchuraMedia (#PCDATA)>
-<!ATTLIST anchuraMedia unidad (m) #REQUIRED>
+<!ELEMENT fecha_carrera (#PCDATA)>
+<!ELEMENT hora_inicio (#PCDATA)>
+<!ELEMENT numero_vueltas (#PCDATA)>
 
-<!ELEMENT fechaCarrera (#PCDATA)>
-<!ELEMENT horaInicio (#PCDATA)>
-<!ELEMENT numeroVueltas (#PCDATA)>
+<!ELEMENT ubicacion (localidad, pais)>
 <!ELEMENT localidad (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
+
 <!ELEMENT patrocinador (#PCDATA)>
 
 <!ELEMENT referencias (referencia+)>
 <!ELEMENT referencia (#PCDATA)>
 
-<!ELEMENT galeriaFotos (foto+)>
-<!ELEMENT foto EMPTY>
-<!ATTLIST foto src CDATA #REQUIRED alt CDATA #REQUIRED>
+<!ELEMENT fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
 
-<!ELEMENT galeriaVideos (video+)>
-<!ELEMENT video EMPTY>
-<!ATTLIST video src CDATA #REQUIRED>
-
-<!ELEMENT origenCircuito (latitud, longitud, altitud)>
+<!ELEMENT videos (video+)>
+<!ELEMENT video (#PCDATA)>
 
 <!ELEMENT latitud (#PCDATA)>
-<!ATTLIST latitud unidad (grados) #REQUIRED>
-
 <!ELEMENT longitud (#PCDATA)>
-<!ATTLIST longitud unidad (grados) #REQUIRED>
-
 <!ELEMENT altitud (#PCDATA)>
-<!ATTLIST altitud unidad (m) #REQUIRED>
 
-<!ELEMENT puntosAnonimos (puntoAnonimo+)> 
+<!ELEMENT inicio_circuito (latitud, longitud, altitud)>
 
-<!ELEMENT puntoAnonimo (nombre, distancia, latitud, longitud, altitud, sector)>
-<!ELEMENT sector (#PCDATA)>
+<!ELEMENT tramos (tramo+)>
+<!ELEMENT tramo (coordenadas_final)>
+<!ATTLIST tramo
+    sector CDATA #REQUIRED
+    distancia CDATA #REQUIRED>
+
+<!ELEMENT coordenadas_final (latitud, longitud, altitud)>
 
 <!ELEMENT vencedor EMPTY>
-<!ATTLIST vencedor nombre CDATA #REQUIRED tiempo CDATA #REQUIRED>
+<!ATTLIST vencedor
+    nombre CDATA #REQUIRED
+    tiempo CDATA #REQUIRED>
 
 <!ELEMENT clasificacion (piloto+)>
-<!ELEMENT piloto EMPTY>
-<!ATTLIST piloto posicion CDATA #REQUIRED nombre CDATA #REQUIRED>
+<!ELEMENT piloto (#PCDATA)>
